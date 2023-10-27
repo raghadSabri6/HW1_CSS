@@ -1,0 +1,78 @@
+/* public styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    direction: ltr;
+}
+.clr{
+    clear:both;
+}
+.container{
+    width: 80%;
+    margin: auto; 
+}
+
+/* navbar styles */
+
+.navbar{
+    background-color: black;
+    width:100%;
+    position:sticky;
+    left:0;
+    top:0px;
+    z-index: 1;
+}
+.logo{
+    float:left;
+    width:20%;
+    margin-top:3px;
+}
+.logo img{
+    width :100%;
+}
+.navbar .list{
+    float: right;
+    margin-top:11px;
+
+}
+.navbar .list ul {
+    list-style-type:none;
+
+}
+.navbar .list li {
+    margin-right:15px;
+    float:left;
+
+}
+.navbar .list li a{
+    text-decoration : none;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+/* portfilo styles */
+
+.portfilo{
+    background-color:cornsilk;
+    text-align: center;
+}
+.item{
+    float:left;
+    width:33.33%;
+    padding-right:30px;
+}
+.portfilo h2 {
+    text-transform: uppercase;
+    margin-top: 5px;;
+}
+.portfilo h2, .portfilo p {
+    margin-bottom: 5px;;
+}
+.item img{
+    width:100%;
+    display: block;
+}
